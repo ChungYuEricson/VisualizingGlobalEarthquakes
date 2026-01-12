@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>{{ page.title }} | {{ site.title }}</title>
@@ -7,7 +7,7 @@
 </head>
 <body>
     <div style="display: flex;">
-        <nav style="width: 250px; height: 100vh; background: #f4f4f4; padding: 20px; position: fixed;">
+        <nav style="width: 200px; height: 100vh; background: #f8f9fa; padding: 20px; border-right: 1px solid #ddd; position: fixed;">
             <h2>Menu</h2>
             <ul style="list-style: none; padding: 0;">
                 <li><a href="{{ site.baseurl }}/">Home</a></li>
@@ -16,7 +16,7 @@
             </ul>
         </nav>
 
-        <main style="margin-left: 280px; padding: 40px; width: 100%;">
+        <main style="margin-left: 240px; padding: 40px; flex: 1;">
             {{ content }}
         </main>
     </div>
