@@ -12,11 +12,12 @@ body { font-family: sans-serif; margin: 0; display: flex; }
 
 .sidebar a { color: #ecf0f1; text-decoration: none; display: block; margin: 10px 0; }
 
-.content {
+main {
     margin-left: 280px;
     padding: 40px;
     width: calc(100% - 280px); 
     display: block;
+    overflow-x: hidden;
 }
 
 iframe {
@@ -24,4 +25,5 @@ iframe {
     border: none;    
     display: block;    
     margin-bottom: 30px;
+    overflow: hidden; 
 }
