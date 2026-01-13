@@ -44,12 +44,3 @@ main iframe {
     display: block;
     margin-bottom: 20px;
 }
-
-main iframe.scaled {
-    width: 100% !important;
-    height: 800px !important;
-    transform: scale(0.65) !important;
-    transform-origin: top left !important;
-    margin-right: -1000px !important;  /* Try different pixel amounts */
-    margin-bottom: -280px !important;
-}
