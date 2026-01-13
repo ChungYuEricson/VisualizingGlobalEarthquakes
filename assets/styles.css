@@ -27,17 +27,14 @@ body {
 
 main {
     margin-left: 280px;
-    padding: 20px;
-    width: calc(100% - 280px); 
-    box-sizing: border-box; /* Ensures padding doesn't add to the width */
+    padding: 20px; /* Reduced padding to give more room to the chart */
+    width: calc(100% - 280px);
+    box-sizing: border-box;
 }
 
 main iframe {
-    width: 100%;    
-    max-width: 1000px;     
-    aspect-ratio: 16 / 9;  
-    height: auto;          
-    border: 1px solid #ddd; 
+    width: 100%;            /* Force it to take up the full available width */
+    height: 600px;          /* Set a height that actually fits your chart data */
+    border: none;           /* Remove the "box" border */
     display: block;
-    margin: 0 auto 30px;
 }
