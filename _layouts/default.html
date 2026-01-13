@@ -7,7 +7,7 @@
 </head>
 <body>
     <div style="display: flex;">
-        <nav style="width: 200px; height: 100vh; background: #f8f9fa; padding: 20px; border-right: 1px solid #ddd; position: fixed;">
+        <nav style="width: 200px; height: 100vh; background: #f8f9fa; padding: 20px; border-right: 1px solid #ddd;">
             <h2>Menu</h2>
             <ul style="list-style: none; padding: 0;">
                 <li><a href="{{ site.baseurl }}/index">Home</a></li>
@@ -16,8 +16,8 @@
             </ul>
         </nav>
 
-        <main>
-            {{ content }}
+        <main style="flex: 1; padding: 40px;">
+            {{ content }}   
         </main>
     </div>
 </body>
