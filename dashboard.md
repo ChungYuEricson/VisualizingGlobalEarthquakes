@@ -6,8 +6,7 @@ title: Dashboard
 # Interaction Dashboard
 
 ### Overview View 1
-<iframe src="{{ site.baseurl }}/charts/view1.html" 
-        style="width: 100%; height: 800px; transform: scale(0.65); transform-origin: top left; border: none; margin-right: -35%; margin-bottom: -35%;"></iframe>
+<iframe src="{{ site.baseurl }}/charts/view1.html" class="scaled"></iframe>
 
 ---
 
