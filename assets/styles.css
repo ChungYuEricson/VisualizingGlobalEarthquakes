@@ -1,5 +1,13 @@
-body { font-family: sans-serif; margin: 0; display: flex; }
-.container { display: flex; width: 100%; }
+body { 
+    font-family: sans-serif; 
+    margin: 0; 
+    display: flex; 
+}
+
+.container { 
+    display: flex; 
+    width: 100%; 
+}
 
 .sidebar {
     width: 250px;
@@ -10,20 +18,32 @@ body { font-family: sans-serif; margin: 0; display: flex; }
     position: fixed;
 }
 
-.sidebar a { color: #ecf0f1; text-decoration: none; display: block; margin: 10px 0; }
+.sidebar a { 
+    color: #ecf0f1; 
+    text-decoration: none; 
+    display: block; 
+    margin: 10px 0; 
+}
 
 main {
     margin-left: 280px;
     padding: 40px;
     width: calc(100% - 280px); 
     display: block;
-    overflow-x: hidden;
 }
 
-iframe {
-    width: 100%;    
-    border: none;    
-    display: block;    
-    margin-bottom: 30px;
-    overflow: hidden; 
+main iframe {
+    width: 100%;
+    max-width: 1200px;
+    border: none;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+main iframe.wide {
+    max-width: 1400px;
+}
+
+main iframe.narrow {
+    max-width: 900px;
 }
