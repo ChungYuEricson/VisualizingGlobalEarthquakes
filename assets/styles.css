@@ -34,12 +34,7 @@ main {
 
 main iframe {
     width: 100%;
-    max-width: 2000px;
     border: none;
     display: block;
     margin: 0 auto 30px;
-}
-
-main iframe.wide {
-    max-width: 3000px;
 }
