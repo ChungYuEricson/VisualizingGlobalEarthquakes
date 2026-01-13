@@ -6,7 +6,7 @@ title: EDA Analysis
 # Exploratory Data Analysis
 
 ### Spatial Distribution
-<iframe src="{{ site.baseurl }}/charts/spatial_map.html" scrolling="no"></iframe>
+<iframe src="{{ site.baseurl }}/charts/spatial_map.html" height = 600 width = 600></iframe>
 
 ### Magnitude and Depth
 <iframe src="{{ site.baseurl }}/charts/mag_depth_scatter.html" scrolling="no"></iframe>
