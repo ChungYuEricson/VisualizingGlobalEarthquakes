@@ -26,16 +26,15 @@ body {
 }
 
 main {
-    margin-left: 280px;
-    padding: 20px; /* Reduced padding to give more room to the chart */
-    width: calc(100% - 280px);
-    box-sizing: border-box;
+    margin-left: 250px; /* Matches the sidebar exactly */
+    padding: 20px;
+    width: calc(100% - 250px); 
+    box-sizing: border-box; /* Crucial: includes padding in the width calculation */
 }
 
 main iframe {
-    width: 100%;       /* Spans the full width of your dashboard area */
-    height: 650px;     /* Set this slightly taller than your tallest chart (600px) */
-    border: none;      /* Removes the "boxed" border line */
-    overflow: hidden;  /* Prevents the internal scrollbars from appearing */
+    width: 100%;       /* Spans the full remaining width of the screen */
+    height: 700px;     /* Set this high enough so no vertical scrollbar appears */
+    border: none;
     display: block;
 }
