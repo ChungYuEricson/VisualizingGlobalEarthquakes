@@ -6,19 +6,19 @@ title: EDA Analysis
 # Exploratory Data Analysis
 
 ### Spatial Distribution
-<iframe src="{{ site.baseurl }}/charts/spatial_map.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/charts/spatial_map.html" height="600px"></iframe>
 
 ### Magnitude and Depth
-<iframe src="{{ site.baseurl }}/charts/mag_depth_scatter.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/charts/mag_depth_scatter.html" height="600px"></iframe>
 
 ### Net Density
-<iframe src="{{ site.baseurl }}/charts/net_density_chart.html" width="100%" height="500px" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/charts/net_density_chart.html" height="500px"></iframe>
 
 ### Depth Density
-<iframe src="{{ site.baseurl }}/charts/depth_density_chart.html" width="100%" height="500px" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/charts/depth_density_chart.html" height="500px"></iframe>
 
 ### Magnitude Boxplot
-<iframe src="{{ site.baseurl }}/charts/mag_net_boxplot.html" width="100%" height="500px" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/charts/mag_net_boxplot.html" height="500px"></iframe>
 
 ### General Trends
-<iframe src="{{ site.baseurl }}/charts/bar_charts.html" width="100%" height="500px" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/charts/bar_charts.html" height="500px"></iframe>
