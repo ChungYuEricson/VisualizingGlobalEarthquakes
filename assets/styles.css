@@ -39,8 +39,16 @@ main {
 
 main iframe {
     width: 100%;
-    height: 80vh;
+    height: auto;
     border: none;
     display: block;
     margin-bottom: 20px;
+}
+
+.chart-wide {
+    aspect-ratio: 16 / 9;
+}
+
+.chart-tall {
+    aspect-ratio: 4 / 3; 
 }
