@@ -49,6 +49,6 @@ main iframe {
     aspect-ratio: 16 / 9;
 }
 
-.chart-tall {
-    aspect-ratio: 5 / 4; 
+.chart-small {
+    aspect-ratio: 32 / 9; 
 }
