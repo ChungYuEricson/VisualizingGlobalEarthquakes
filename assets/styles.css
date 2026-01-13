@@ -28,7 +28,7 @@ body {
 main {
     margin-left: 280px;
     padding: 40px;
-    display: block;
+    max-width: 1000px;
 }
 
 main iframe {
@@ -36,5 +36,4 @@ main iframe {
     border: none;
     display: block;
     margin: 0 auto 30px;
-    /* No max-width constraint */
 }
