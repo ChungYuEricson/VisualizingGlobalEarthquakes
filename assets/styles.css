@@ -33,8 +33,9 @@ main {
 }
 
 main iframe {
-    width: 100%;            /* Force it to take up the full available width */
-    height: 600px;          /* Set a height that actually fits your chart data */
-    border: none;           /* Remove the "box" border */
+    width: 100%;       /* Spans the full width of your dashboard area */
+    height: 650px;     /* Set this slightly taller than your tallest chart (600px) */
+    border: none;      /* Removes the "boxed" border line */
+    overflow: hidden;  /* Prevents the internal scrollbars from appearing */
     display: block;
 }
