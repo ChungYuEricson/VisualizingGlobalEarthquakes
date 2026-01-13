@@ -6,7 +6,10 @@ title: Dashboard
 # Interaction Dashboard
 
 ### Overview View 1
-<iframe src="{{ site.baseurl }}/charts/view2.html" style="width: 65%; height: 600px;"></iframe>
+<div style="width: 65%; height: 520px; overflow: hidden;">
+    <iframe src="{{ site.baseurl }}/charts/view2.html" 
+            style="width: 153.85%; height: 800px; transform: scale(0.65); transform-origin: top left; border: none;"></iframe>
+</div>
 
 ---
 
