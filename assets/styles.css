@@ -26,15 +26,16 @@ body {
 }
 
 main {
-    margin-left: 250px; /* Matches the sidebar exactly */
-    padding: 20px;
-    width: calc(100% - 250px); 
-    box-sizing: border-box; /* Crucial: includes padding in the width calculation */
+    margin-left: 280px;
+    padding: 40px;
+    /* Remove the width constraint */
+    display: block;
 }
 
 main iframe {
-    width: 100%;       /* Spans the full remaining width of the screen */
-    height: 700px;     /* Set this high enough so no vertical scrollbar appears */
+    width: 100%;
     border: none;
     display: block;
+    margin: 0 auto 30px;
+    /* No max-width constraint */
 }
