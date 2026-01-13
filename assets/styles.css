@@ -42,7 +42,7 @@ main iframe {
     height: auto;
     border: none;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .chart-wide {
@@ -50,5 +50,5 @@ main iframe {
 }
 
 .chart-tall {
-    aspect-ratio: 4 / 3; 
+    aspect-ratio: 3 / 2; 
 }
