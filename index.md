@@ -21,12 +21,10 @@ The foundation of this study is built upon the USGS global network of monitoring
 <h3><strong>Impact and Utility</strong></h3>
 Data serves its highest purpose when it is legible and actionable. While government agencies and emergency departments utilize this information for infrastructure planning and risk mitigation, this project focuses on the democratization of scientific data.
 
-Leveraging Python’s analytical libraries (Pandas) and interactive visualization tools (Altair), the project provides a platform where:
-
-Policymakers and Urban Planners can identify regions with higher seismic frequencies to inform infrastructure and emergency response strategies.
-
-Researchers can highlight geospatial or temporal trends that may indicate gaps in current seismic studies.
-
-The General Public can gain a tangible understanding of global earthquake activity and the frequency of natural phenomena.
-
+<p>Leveraging Python’s analytical libraries (Pandas) and interactive visualization tools (Altair), the project provides a platform where:</p>
+<ul>
+<li>Policymakers and Urban Planners can identify regions with higher seismic frequencies to inform infrastructure and emergency response strategies.</li>
+<li>Researchers can highlight geospatial or temporal trends that may indicate gaps in current seismic studies.</li>
+<li>The General Public can gain a tangible understanding of global earthquake activity and the frequency of natural phenomena.</li>
+</ul>
 Ultimately, this work demonstrates how open-access government data can be utilized for real-world analysis, making complex scientific information engaging and interpretable through modern data storytelling techniques.
