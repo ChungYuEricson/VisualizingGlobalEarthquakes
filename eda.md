@@ -14,7 +14,7 @@ The graph clearly separates the goals of the seismic networks:
 High-Density Regional Networks: ('ci', 'hv', 'nc', etc.) prioritize detection completeness and high resolution for small-to-micro earthquakes to study local fault mechanics. 
 Broad-Scope Global Network: ('us') prioritizes breadth of coverage and the reliable recording of moderate-to-large events that pose a hazard. 
 
-<iframe src="{{ site.baseurl }}/charts/bar_charts.html" class = "chart-wide"></iframe>
+<iframe src="{{ site.baseurl }}/charts/bar_charts.html" class = "chart-square"></iframe>
 
 The above graphs are a collection basic bar charts of the frequency of earthquakes in relation to the respective attributes of interest. 
 

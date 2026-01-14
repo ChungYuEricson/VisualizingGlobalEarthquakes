@@ -53,5 +53,11 @@ main iframe {
 .chart-small {
     width: 100%;
     height: auto;
-    aspect-ratio: 22 / 9; 
+    aspect-ratio: 28 / 9; 
+}
+
+.chart-square {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 12 / 9;
 }
