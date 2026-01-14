@@ -3,7 +3,7 @@ layout: default
 title: EDA Analysis
 ---
 
-### DEA Analysis
+# DEA Analysis
 <iframe src="{{ site.baseurl }}/charts/mag_net_boxplot.html" class = "chart-small"></iframe>
 
 Despite the different locations, each network has pretty similar and consistent results, with the US being the exception. Our interpretation is that the US is likely recording the most earthquakes around the world and that could contribute to more outliers. 

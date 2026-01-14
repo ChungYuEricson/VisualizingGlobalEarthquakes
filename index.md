@@ -11,13 +11,12 @@ Earthquakes represent some of the most powerful natural phenomena on the planet,
 <h3><strong>The Dataset</strong></h3>
 The foundation of this study is built upon the USGS global network of monitoring stations, a reputable government source for seismic, volcanic, and land-use data. To ensure a consistent and reliable narrative, the analysis utilizes a comprehensive snapshot of one month of global seismic activity. This approach ensures that findings are based on a fixed dataset, allowing for precise visualization of every recorded event, from minor tremors to significant tectonic shifts.
 
-Each record includes critical attributes such as:
-
-- Geospatial Coordinates: Precise latitude and longitude of each epicenter.
-
-- Magnitude & Depth: The scale of energy released and the vertical origin of the event.
-
-- Temporal Metrics: Exact timestamps used to identify frequency and patterns over time.
+<p>Each record includes critical attributes such as:</p>
+<ul>
+  <li>Geospatial Coordinates: Precise latitude and longitude of each epicenter.</li>
+  <li>Magnitude & Depth: The scale of energy released and the vertical origin of the event.</li>
+  <li>Temporal Metrics: Exact timestamps used to identify frequency and patterns over time.</li>
+</ul>
 
 <h3><strong>Impact and Utility</strong></h3>
 Data serves its highest purpose when it is legible and actionable. While government agencies and emergency departments utilize this information for infrastructure planning and risk mitigation, this project focuses on the democratization of scientific data.

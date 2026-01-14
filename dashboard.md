@@ -3,8 +3,6 @@ layout: default
 title: Dashboard
 ---
 
-# Interaction Dashboard
-
 <iframe src="{{ site.baseurl }}/charts/view1.html" class = "chart-wide"></iframe>
 
 ---
