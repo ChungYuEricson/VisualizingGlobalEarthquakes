@@ -4,6 +4,179 @@ title: EDA Analysis
 ---
 
 # DEA Analysis
+
+Dataset: USGS Earthquake Data (All Earthquakes, Past Month)
+Source: U.S. Geological Survey (USGS)
+URL: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv
+License: U.S. Public Domain
+Date Accessed: October 23, 2025
+Time Period: Past 30 days
+
+<div style="overflow-x:auto;">
+    <table style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; line-height: 1.5;">
+        <thead>
+            <tr style="background-color: #f2f2f2; border-bottom: 2px solid #ddd; text-align: left;">
+                <th style="padding: 12px; border: 1px solid #ddd;">Attribute Name</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">Attribute Type</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">Data Semantics</th>
+                <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Cardinality</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">time</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential, Temporal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Timestamp of earthquake occurrence in ISO 8601 format</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">6,281</td>
+            </tr>
+            <tr style="background-color: #fafafa;">
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">latitude</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Spatial coordinate (°), range: ~–65.6 to 85.1</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">5,074</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">longitude</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Spatial coordinate (°), range: ~–179.9 to 179.9</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">5,265</td>
+            </tr>
+            <tr style="background-color: #fafafa;">
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">depth</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Depth below Earth’s surface (km), range: approx –3.2 to 643.1</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">3,330</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">mag</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Earthquake magnitude on a standard scale, range: approx –2.1 to 7.6</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">492</td>
+            </tr>
+            <tr style="background-color: #fafafa;">
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">magType</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorical (Nominal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Type of magnitude calculation</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">7</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">nst</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Number of seismic stations that recorded the event</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">146</td>
+            </tr>
+            <tr style="background-color: #fafafa;">
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">gap</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Largest azimuthal gap between adjacent stations (°)</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">319</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">dmin</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Horizontal distance from epicenter to nearest station (°)</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">4,440</td>
+            </tr>
+            <tr style="background-color: #fafafa;">
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">rms</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Root-mean-square travel time residual (s)</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">159</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">net</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorical (Nominal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Network code of contributing organization</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">12</td>
+            </tr>
+            <tr style="background-color: #fafafa;">
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">id</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorical (Nominal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Unique identifier for each earthquake event</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">6,281</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">updated</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential, Temporal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Timestamp of last data update (ISO 8601)</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">6,281</td>
+            </tr>
+            <tr style="background-color: #fafafa;">
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">place</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorical (Nominal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Human-readable text description of location</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">3,334</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">type</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorical (Nominal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Type of seismic event (e.g., earthquake, quarry blast, explosion)</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">3</td>
+            </tr>
+            <tr style="background-color: #fafafa;">
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">horizontalError</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Uncertainty estimate of horizontal position (km)</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">1,885</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">depthError</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Uncertainty estimate of depth (km)</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">2,415</td>
+            </tr>
+            <tr style="background-color: #fafafa;">
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">magError</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Uncertainty estimate of magnitude</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">2,165</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">magNst</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Quantitative (Sequential)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Number of stations used to calculate magnitude</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">208</td>
+            </tr>
+            <tr style="background-color: #fafafa;">
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">status</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorical (Ordinal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Review status: automatic < reviewed</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">2</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">locationSource</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorical (Nominal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Network code for original location determined</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">12</td>
+            </tr>
+            <tr style="background-color: #fafafa;">
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">magSource</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorical (Nominal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Network code for original magnitude determined</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">12</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">mag_ordinal</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorical (Ordinal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorized magnitude (Minor to Major)</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">5</td>
+            </tr>
+            <tr style="background-color: #fafafa;">
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">depth_ordinal</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorical (Ordinal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorized depth levels</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">4</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2c3e50;">gap_level</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Categorical (Ordinal)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">Binned azimuthal gap level</td>
+                <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">4</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 <iframe src="{{ site.baseurl }}/charts/mag_net_boxplot.html" class = "chart-small"></iframe>
 
 Despite the different locations, each network has pretty similar and consistent results, with the US being the exception. Our interpretation is that the US is likely recording the most earthquakes around the world and that could contribute to more outliers. 

@@ -1,14 +1,10 @@
-# Site Settings
 title: Visualizing Global Earthquakes - Understanding Global Earthquake Behaviours and Patterns
 email:
 description: 
 
-# URL Settings
-# If your site is at username.github.io/my-repo/, set baseurl to /my-repo
 baseurl: "/VisualizingGlobalEarthquakes"
 url: "https://username.github.io"
 
-# Build Settings
 markdown: kramdown
 theme: minima
-include: [charts] # This tells GitHub to include your HTML charts folder
+include: [charts]
