@@ -5,12 +5,14 @@ title: EDA Analysis
 
 # DEA Analysis
 
-Dataset: USGS Earthquake Data (All Earthquakes, Past Month)
-Source: U.S. Geological Survey (USGS)
-URL: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv
-License: U.S. Public Domain
-Date Accessed: October 23, 2025
-Time Period: Past 30 days
+## Dataset Information
+
+**Dataset:** USGS Earthquake Data (All Earthquakes, Past Month)  
+**Source:** U.S. Geological Survey (USGS)  
+**URL:** [https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv)  
+**License:** U.S. Public Domain  
+**Date Accessed:** October 23, 2025  
+**Time Period:** Past 30 days
 
 <div style="overflow-x:auto;">
     <table style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; line-height: 1.5;">
@@ -176,6 +178,8 @@ Time Period: Past 30 days
         </tbody>
     </table>
 </div>
+
+## Analysis
 
 <iframe src="{{ site.baseurl }}/charts/mag_net_boxplot.html" class = "chart-small"></iframe>
 
